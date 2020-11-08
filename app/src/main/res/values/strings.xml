@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AppStudent</string>
+    <string name="update_download_progressing">正在下载</string>
+    <string name="update_download_finish">下载完成</string>
+    <string name="update_download_failed">下载失败</string>
+    <string name="update_download_start">开始下载</string>
+    <style name="DialogTheme" parent="@android:style/Theme.Dialog">
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:background">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+        <!-- 遮罩层 -->
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+</resources>
